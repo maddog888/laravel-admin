@@ -14,17 +14,11 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/maddog888/laravel-admin/actions/workflows/tests.yml">
-        <img src="https://github.com/maddog888/laravel-admin/actions/workflows/tests.yml/badge.svg" alt="Tests">
-    </a>
     <a href="https://github.com/maddog888/laravel-admin">
         <img src="https://img.shields.io/badge/PHP-8.2%2B-777BB4?style=flat-square" alt="PHP 8.2+">
     </a>
     <a href="https://github.com/maddog888/laravel-admin">
         <img src="https://img.shields.io/badge/Laravel-10%20%7C%2011%20%7C%2012%20%7C%2013-FF2D20?style=flat-square" alt="Laravel 10 to 13">
-    </a>
-    <a href="https://packagist.org/packages/maddog888/laravel-admin">
-        <img src="https://img.shields.io/packagist/v/maddog888/laravel-admin.svg?style=flat-square" alt="Packagist">
     </a>
 </p>
 
