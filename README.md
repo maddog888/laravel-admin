@@ -1,43 +1,43 @@
 <p align="center">
-<a href="https://github.com/mRamadan0101/laravel-admin">
-<img src="https://laravel-admin.org/images/logo002.png" alt="laravel-admin">
+<a href="https://github.com/maddog888/laravel-admin">
+<h2>laravel-admin</h2>
 </a>
 </p>
 
 <p align="center">Administrative interface builder for Laravel. Build CRUD backends with a few lines of code.</p>
 
 <p align="center">
-<a href="https://github.com/mRamadan0101/laravel-admin">Repository</a> |
+<a href="https://github.com/maddog888/laravel-admin">Repository</a> |
 <a href="UPGRADE.md">Upgrade guide</a> |
 <a href="#extensions">Extensions</a> |
 <a href="CONTRIBUTING.md">Contribute</a>
 </p>
 
 <p align="center">
-    <a href="https://github.com/mRamadan0101/laravel-admin/actions/workflows/tests.yml">
-        <img src="https://github.com/mRamadan0101/laravel-admin/actions/workflows/tests.yml/badge.svg" alt="Tests">
+    <a href="https://github.com/maddog888/laravel-admin/actions/workflows/tests.yml">
+        <img src="https://github.com/maddog888/laravel-admin/actions/workflows/tests.yml/badge.svg" alt="Tests">
     </a>
-    <a href="https://github.com/mRamadan0101/laravel-admin">
+    <a href="https://github.com/maddog888/laravel-admin">
         <img src="https://img.shields.io/badge/PHP-8.2%2B-777BB4?style=flat-square" alt="PHP 8.2+">
     </a>
-    <a href="https://github.com/mRamadan0101/laravel-admin">
-        <img src="https://img.shields.io/badge/Laravel-10%20%7C%2011%20%7C%2012-FF2D20?style=flat-square" alt="Laravel 10 to 12">
+    <a href="https://github.com/maddog888/laravel-admin">
+        <img src="https://img.shields.io/badge/Laravel-10%20%7C%2011%20%7C%2012-FF2D20?style=flat-square" alt="Laravel 10 to 13">
     </a>
-    <a href="https://packagist.org/packages/mramadan0101/laravel-admin">
-        <img src="https://img.shields.io/packagist/v/mramadan0101/laravel-admin.svg?style=flat-square" alt="Packagist">
+    <a href="https://packagist.org/packages/maddog888/laravel-admin">
+        <img src="https://img.shields.io/packagist/v/maddog888/laravel-admin.svg?style=flat-square" alt="Packagist">
     </a>
 </p>
 
 <p align="center">
     Maintained independently from <a href="https://github.com/z-song/laravel-admin">z-song/laravel-admin</a>.
-    The PHP namespace stays <code>Encore\Admin</code>. The Packagist name is <code>mramadan0101/laravel-admin</code>.
+    The PHP namespace stays <code>Encore\Admin</code>. The Packagist name is <code>maddog888/laravel-admin</code>.
 </p>
 
 Requirements
 ------------
 
 - PHP >= 8.2
-- Laravel 10, 11 or 12
+- Laravel 10, 11, 12 or 13
 - Fileinfo PHP Extension
 
 Versions
@@ -45,7 +45,7 @@ Versions
 
 | Version | Branch   | PHP       | Laravel | Frontend                                              | Status |
 |---------|----------|-----------|---------|-------------------------------------------------------|--------|
-| 2.x     | `master` | 8.2+      | 10 – 12 | AdminLTE 4, Bootstrap 5.3, jQuery 3.7, Font Awesome 6 | active |
+| 2.x     | `master` | 8.2+      | 10 – 13 | AdminLTE 4, Bootstrap 5.3, jQuery 3.7, Font Awesome 6 | active |
 | 1.x     | `1.x`    | 7.2 – 8.x | 6 – 8   | AdminLTE 2, Bootstrap 3.4.1, jQuery 3.7 + migrate, FA 4 | legacy |
 
 `master` is the 2.x line. Upgrading an existing 1.x app? Read [UPGRADE.md](UPGRADE.md).
@@ -54,7 +54,7 @@ Installation
 ------------
 
 ```bash
-composer require mramadan0101/laravel-admin
+composer require maddog888/laravel-admin
 ```
 
 Do not install this next to the original `encore/laravel-admin` package. Both ship the `Encore\Admin` namespace, so remove the old one first if it is already in the application.
@@ -155,7 +155,7 @@ These extensions were written for laravel-admin 1.x. Check each one before using
 
 Bug reports and pull requests are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) for how to report a bug and how the `master` and `1.x` branches differ.
 
-<a href="https://github.com/mRamadan0101/laravel-admin/graphs/contributors">People who already contributed</a>
+<a href="https://github.com/maddog888/laravel-admin/graphs/contributors">People who already contributed</a>
 
 Other
 ------------
