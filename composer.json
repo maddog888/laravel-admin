@@ -1,15 +1,15 @@
 {
-    "name": "mramadan0101/laravel-admin",
-    "description": "Laravel admin builder for CRUD backends, maintained for PHP 8.2+ and Laravel 10-12",
+    "name": "maddog888/laravel-admin",
+    "description": "Laravel admin builder for CRUD backends, maintained for PHP 8.2+ and Laravel 10-13",
     "type": "library",
     "keywords": ["laravel", "admin", "grid", "form", "adminlte"],
-    "homepage": "https://github.com/mRamadan0101/laravel-admin",
+    "homepage": "https://github.com/maddog888/laravel-admin",
     "license": "MIT",
     "authors": [
         {
             "name": "Mohamed Ramadan",
-            "email": "mramadan0101@hotmail.com",
-            "homepage": "https://github.com/mRamadan0101"
+            "email": "maddog888@hotmail.com",
+            "homepage": "https://github.com/maddog888"
         },
         {
             "name": "zsong",
@@ -19,7 +19,7 @@
     "require": {
         "php": "^8.2",
         "symfony/dom-crawler": "^6.0|^7.0",
-        "laravel/framework": "^10.0|^11.0|^12.0"
+        "laravel/framework": "^10.0|^11.0|^12.0|^13.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
